@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: lightslategrey;
+}
+
+#game {
+    padding: 20px;
+    width: max-content;
+    margin: 10vh auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.game-name {
+    text-align: center;
+    text-transform: uppercase;
+    color: purple;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.letter-container {
+    display: block;
+    margin: 0px auto;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: solid 2px purple;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    border: solid 2px purple;
+    display: block;
+    margin: 0px auto;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.button:hover {
+    background-color: white;
+    color: purple;
+}
