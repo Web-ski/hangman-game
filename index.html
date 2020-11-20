@@ -3,19 +3,25 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>CODE:ME js-e8</title>
+    <title>Szubienica Web-ski</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 </head>
 
 <body>
-    <section id="game">
+    <section id="name" class="section">
         <h1 class="game-name"></h1>
+    </section>
+    <section id="game" class="section">
+        <h2 class="start">Słowo:</h2>
         <h2 class="hidden-word"></h2>
         <label>Wpisz literę:</label><br>
         <input class="letter-container" type="text"><br>
         <button class="button">Zatwierdź</button>
         <h2 class="chances">Twoje szanse: <span class="chances-number"></span> </h2>
         <h2 class="result"></h2>
+    </section>
+    <section id="restart" class="section">
+        <button class="button-restart">Nowa gra</button>
     </section>
     <script src="game.js"></script>
 </body>
